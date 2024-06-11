@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta http-equiv="content-type" value="text/html;chaset=utf-8">
+  <link rel="stylesheet" type="text/css" href="/WxCloudReadinessAnalyzer/webMethods.css">
+  <title></title>
+</head>
+    <body>
+		<table width="100%">
+			<tbody>
+				<tr>
+					<td>
+						<table class="tableView" cellpadding="2">
+							<tbody>
+								<tr>
+									<td class="heading">Report creation result &nbsp;&nbsp;</td>
+								</tr>
+								%ifvar lastError/errorType -notempty%
+								<tr>
+									<td class="evenrow-l">%value reportName% report could not be created due to %value lastError/error%.</td>
+								</tr>
+								%else%
+								<tr>
+									<td class="evenrow-l">%value reportName% report successfully saved as <a href="/WxCloudReadinessAnalyzer/reports/%value rptFileName%" download>%value rptFileName%</a>.</td>
+								</tr>
+								%endif%
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

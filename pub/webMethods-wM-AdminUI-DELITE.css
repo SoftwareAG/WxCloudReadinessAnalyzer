@@ -1,0 +1,393 @@
+body {
+    font-family: 'Roboto',Arial,Sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+th {
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+td {
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+input[type="text"],
+input[type="password"]
+ {
+    background-color: #fff;
+    font-size: 14px;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+input::placeholder {
+    color: #666
+}
+
+input:-webkit-autofill {
+    background-color: #fff
+}
+
+input:not([type]):not([disabled]):hover,
+input:not([type]):not([disabled]):focus,
+input:not([type]):not([disabled]):active,
+input[type="text"]:not([disabled]):hover,
+input[type="text"]:not([disabled]):focus,
+input[type="text"]:not([disabled]):active,
+input[type="password"]:not([disabled]):hover,
+input[type="password"]:not([disabled]):focus,
+input[type="password"]:not([disabled]):active{
+  outline: 2px solid #1776BF;
+  outline-offset: -2px;
+}
+
+
+.input:disabled {
+    opacity: .5;
+    resize: none;
+    cursor: not-allowed,
+}
+
+select:not([disabled]):hover,
+select:not([disabled]):focus,
+select:not([disabled]):active{
+  border: 1px solid #1776BF; 
+  outline: 1px solid #1776BF;
+  outline-offset: -2px;
+  
+}
+
+p {
+    background-color: #fff;
+    font-size: 14px;
+}
+textarea {
+    background-color: #fff;
+    font-size: 14px;
+}
+select {
+    background-color: #fff;
+    font-size: 12px;
+    /* line-height: 1.5rem; */
+    /* height: 1.5rem; */
+}
+ select>option{ 
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background: white;
+    height: 16px;
+    width: 16px;
+    border: 1px solid gray;
+    vertical-align: inherit;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: #FFF;
+  }
+  
+  input[type="checkbox"]:active,
+  input[type="checkbox"]:focus,
+  input[type="checkbox"]:hover {
+    border: 1px solid #1776BF;
+    outline: 2px solid #1776BF;
+    outline-offset: -2px
+  }
+  
+  input[type="checkbox"]:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  input[type="checkbox"]:after {
+    content: '';
+    position: relative;
+    left: 38%;
+    top: 18%;
+    width: 15%;
+    height: 40%;
+    border: solid #1776BF;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked:after {
+    display: block;
+  }
+  
+  input[type="checkbox"]:disabled:after {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  input[type="checkbox"] + label {
+    vertical-align: inherit;
+  }
+  input[type="checkbox"]:disabled+label {
+    opacity: .5
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width:20px;
+    height:20px;
+    border:1px solid gray;
+    border-radius:50%;
+    outline:none !important;
+    -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    box-shadow: none !important;
+}
+input[type='radio']:hover:not(:disabled)
+ {
+    border:2px solid #1776BF;
+}
+input[type='radio']:focus:not(:disabled),
+input[type='radio']:active:not(:disabled) {
+    border:3px solid #1776BF;
+}
+input[type='radio']:before {
+    content:'';
+    display:block;
+    width:60%;
+    height:60%;
+    margin: 20% auto;    
+    border-radius:50%;    
+}
+input[type='radio']:checked:before {
+    background:#1776BF;
+}
+input[type="radio"]:disabled+label {
+    cursor: not-allowed;
+    opacity: .5;
+}
+input[type='radio']:disabled:checked:before {
+    opacity: .5;
+}
+.tableView th,
+.tableForm th {
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    border-left:none;
+    border-right:none;
+	font-weight : bold;
+ padding-top: 0.5em; 
+   padding-bottom: 0.5em; 
+    padding-left: 1em;
+    background-color: #fff;
+}
+
+.tableView th{
+    text-align: left;
+}
+.tableView td,
+.tableForm td{
+    border-left:none;
+    border-right:none;
+    padding-top:0.0em;
+    padding-bottom:0.0em;
+    
+}
+
+.oddcol-r, .evencol-r {
+    text-align: left;
+    padding-right: 2px;
+}
+
+.evencol, .oddcol {
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.oddrow,
+.oddrowdata-r,
+.evenrow,
+.evenrowdata-r,
+.rowlabel {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.oddrowdata,
+.evenrowdata {
+  /*  padding-left: 2px; */
+  /*   padding-right: 2px; */
+    text-align: left;
+}
+
+.tableView .evenrow,
+.tableView .oddrow,
+.tableForm .evenrow,
+.tableForm .oddrow {
+    line-height: 11px; 
+    text-align: left;
+    background-color: #fff;
+}
+
+.tableView .evenrowdata,
+.tableView .oddrowdata,
+.tableForm .evenrowdata,
+.tableForm .oddrowdata {
+    text-align: left;
+    background-color: #fff;
+}
+
+.tableView .subheading2 .evenrow,
+.tableView .subheading2 .oddrow,
+.tableView .subheading2 .evencol,
+.tableView .subheading2 .oddcol,
+.tableForm .subheading2 .evenrow,
+.tableForm .subheading2 .oddrow,
+.tableForm .subheading2 .evencol,
+.tableForm .subheading2 .oddcol {
+    background-color: #e5e5e4;
+    color: #333333;
+    padding: 1em;
+    text-align: left;
+    height: 2em;
+}
+.tableView .subheading2 .evencol,
+.tableView .subheading2 oddcol,
+/* .tableForm .subheading2,
+.tableForm .subheading2 th */
+{
+    background-color: #FFFFFF;
+}
+
+.subheading2 th,
+.subheading2 td {
+    background-color: #FFFFFF  !important;
+	text-align: left;
+	font-weight: bold;
+}
+
+.tableView .heading,
+.tableForm .heading {
+    border: none;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 0px 0px 0px 1em;
+    text-align: left;
+    font-weight: bold;
+ /*   font-size: 1.0rem; */
+    height: 2.5em;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.breadcrumb{
+	display:none !important;
+}
+
+.breadcrumb, .breadcrumb-left, .breadcrumb-right {
+    display:none !important;
+}
+
+.breadcrumb-left {
+    display:none !important;
+}
+
+.breadcrumb-right {
+    display:none !important;
+}
+
+table tr td.breadcrumb {
+    display:none !important;
+}
+
+.menusection-Settings{
+	display:none !important;
+}
+
+body table tr td.menusection-Settings {
+	display:none !important;
+}
+
+table.menuTable tr td.menusection-Settings {
+	display:none !important;
+}
+/* new changes */
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.action input[type=submit]{
+    line-height: 22px;
+    color: #fff;
+    background-color: #1776BF;
+    text-decoration: none;
+    transition: .25s ease-in;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    outline-offset: -2px;
+}
+
+.action input[type=submit]:hover:not(:active):enabled,
+.action input[type=submit]:focus:not(:disabled) {
+  color: #1776BF;
+  background-color: #fff;
+  border: 1px solid #1776BF;
+  outline: 1px solid #1776BF;
+  outline-offset: -2px
+}
+
+.action input[type=submit]:disabled {
+  opacity: .5;
+  cursor: not-allowed
+}
+
+.action input[type=submit]:active {
+  background-color: #0F4C7B;
+  border-color: #0F4C7B;
+  outline: none;
+  color: #fff
+}
+
+
+/* this will change look of all buttons*/
+input[type="button"]{
+    line-height: 22px;
+}
+
+input[type="button"]:disabled {
+    opacity: .5;
+    cursor: not-allowed
+}
+.action input[type="button"]:not(:disabled) {
+    background-color: #fff;
+    border-color: #1776BF
+}
+.action input[type="button"]:hover:not(:disabled),
+.action input[type="button"]:active:not(:disabled)
+.action input[type="button"]:focus {
+  color: #1776BF;
+  background-color: #fff;
+  border: 1px solid #1776BF;
+  outline: 1px solid #1776BF;
+  outline-offset: -2px
+}

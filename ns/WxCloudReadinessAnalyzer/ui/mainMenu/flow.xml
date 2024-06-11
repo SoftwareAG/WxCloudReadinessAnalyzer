@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">buttonUrls</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">WxCloudReadinessAnalyzer.ui:buttonUrls</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/buttonUrls;4;0;WxCloudReadinessAnalyzer.ui:buttonUrls">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <array name="sections" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="name">create</value>
+        <value name="text">Create Reports</value>
+        <array name="submenu" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">adapter</value>
+            <value name="text">Adapter Compatibility</value>
+            <value name="url">adapter-assets-report.dsp</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="name">assets</value>
+            <value name="text">Custom Asset Inventory</value>
+            <value name="url">asset-inventory-report.dsp</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="name">java</value>
+            <value name="text">Custom Java Services</value>
+            <value name="url">java-services-report.dsp</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="name">service</value>
+            <value name="text">Service Compatibility</value>
+            <value name="url">service-dependencies-report.dsp</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="name">package</value>
+            <value name="text">Package Dependencies</value>
+            <value name="url">package-dependencies-report.dsp</value>
+          </record>
+        </array>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="name">download</value>
+        <value name="text">Download &amp; Manage Reports</value>
+        <array name="submenu" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">reports</value>
+            <value name="text">Report List</value>
+            <value name="url">report-list.dsp</value>
+          </record>
+        </array>
+      </record>
+    </array>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+</FLOW>

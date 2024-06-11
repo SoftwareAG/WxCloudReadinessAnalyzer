@@ -1,0 +1,4364 @@
+{
+	"unsupportedServices": [
+		{
+			"serviceName": "ws.monitor.process.model:getAllModelsAggregateTree",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getFieldNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.instanceImage:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.documentControl:resubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:createStepInstance",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:generateListSQL",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:saveKeyValueQuery",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getInstanceStepDetail",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getErrors",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.instance:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelSteps:getStepIDNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstanceServices",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:createProcessError",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:groupList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:modelSave",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instanceControl:setStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getActivityLogs",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getProcessXml",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.pmControl:logServiceResubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:getArchiveStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getStepSummary",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:updateExecutionTracking",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.edit:saveEdited",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:generateModelImage",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.document:getList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.documentControl:multiResubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:imageCleanup",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:getServiceQueryList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:refreshProcessModel",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:processArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:saveStages",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getChildDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.reporting.processDataMart:extract",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instanceControl:resubmitInstanceStep",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceSteps:getStepDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getRecentlySuspended",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.process.actions:invokeProcessActions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.document:exists",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instanceSteps:getStepDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.notificationcount:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getUserList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.modelsWithTask:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:createLoggedFieldMetadata",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:getDocumentQueryList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getProcessList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:setArchiveStatusToError",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.document:getDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.reporting.processDataMart:aggregateDay",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.document:getDocument",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:saveStringQuery",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:isResubmittable",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:clearProcessFilter",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelSteps:getModelSteps",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getProcessModel",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.documentControl:resubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceSteps:getStepErrors",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getSteps",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getCustomData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.documentControl:resubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.modelControl:updateEnabledStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getFilteredProcessModels_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.serviceControl:resubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:deleteProcessModels_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getStepDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getSteps",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:modelSaveWS",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:deploymentTimeMigration",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getModelDetail",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getUserSummary",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getRecentlyCompleted",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getUnusedModels",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getModelNamesWithFilter",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getActivityLogs",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.imonitor.process.modelRuleSteps:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:serviceArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceControl:resubmitAllFailed",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:refreshModel",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceActivityLogs",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.archive:documentArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getImageInfo",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceTransitions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.archive:documentArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:deleteProcessModels",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getProcessFilter",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getStages_wsd",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:configSettings",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:generateProcessInstanceID",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.document:getDocument",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.archive:serviceArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.document:generateListSQL",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:documentArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:completeMigration",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.serviceControl:multiResubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.manager:getTotalModelTime",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getModelNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:getRemoteServers",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instanceSteps:getStepDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getErrors",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getCustomData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.serviceControl:serviceEdit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.archive:serverArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.instanceSearch:_post",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.archive:archive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.modelImage:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getListCustomData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.edit:getPipelineForEdit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.actions:CustomImplOutputDoc",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceSteps",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:saveModel",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getModelImage",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.serviceControl:resubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "EventTypes.WebM._1_0:ProcessStageDefinitionsChange",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:loadQueryByName",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.service:getServicesByProcess",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getPipeline",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceSteps:getStepHistory",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getInstanceIDList_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:updateStepInstanceStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:getProcessQueryList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getModelListWithFilter",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.manager:getRecentFailedStepIterations",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:getCalendar",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:createProcessInstance",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:auditInit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceSteps:getStepCustomData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:startup",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.model:processModelDetail",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.document:getList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceSteps:getStepPipeline",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instanceControl:resubmitAllFailed",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.archive:processArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:jpgDimensionMigration",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.modelsWithTask:_post",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getModelList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.GWTSubprocessInstanceInfo:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceErrors",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:getConfigProperties",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getStepPipeline",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:handleList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:searchInstances",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getProcessModelXML",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:getCurrentUser",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelControl:deleteUnusedModel",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.service:getServiceNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:packageInfo",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.manager:countStepIterationByStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:createLoggedFieldInstance",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstance",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getRoleSummary",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:getActivationQueryList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getRecentlyFailed",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.ping:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.pmControl:logProcessResubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:brokerPush",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.instanceCount:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:formatCustomProcessData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:getQueryList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getStepList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceControl:changeUserTaskPriority",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instanceControl:resubmitStep",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceListWithFilter",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getInstanceSummary",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceControl:changeInstanceStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstanceControl",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceControl",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getRecentlyCreated",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getProcessModelsWithFilter",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.manager:getRecentFailedInstanceIterations",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getRoleList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getFilteredProcessModels",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:setOperationParameters",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceModelInfo",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:aclInit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getHistory",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instanceControl:resubmitAllFailed",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.auth.userAuth:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:updateProcessInstanceStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getStepDetail",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:saveProcessModel",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.archive:processArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:getInstallProperties",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstanceActivityLogs",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.archive:getResults",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.GWTLoggedTransitions:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.changeUserTaskPriority:_post",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.document:getDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.notification:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getDocumentNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.service:getErrorsForProcess",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getFieldNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.model:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:refreshProcessLabels",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:generateInstanceImage",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.archive:serverArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getModelVersionsAggregate",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:serverArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getPagedInstanceList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getEnabledProcessVersions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.documentControl:documentEdit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstance",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:isUsedForModelId",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getProcessNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.reporting.processDataMart:populateProcessDataMart",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getCustomFields",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstanceList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:userList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getModelList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelControl:isModelEnabled",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelSteps:getModelTransitions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getInstanceIDList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:isUsedForModelIds_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getProcessModelsWithFilter_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getCustomFieldDefinitions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelControl:changeModelEnabled",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.model:getModelList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:deleteQuery",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:remoteInvoke",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.service:getList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getListCustomDataSet",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.process:DeleteModelMetadata",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getProcessModelTasksByProcess",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getStages",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getModelSummary",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.document:getDocumentNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:setProcessFilter",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceSteps_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.service:getDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.document:getActions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.archive:service4xArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:pingService",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.customQuery:loadQuery",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.manager:getTotalStepTime",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getStepHistory",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:scheduleCacheLoader",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.serviceControl:serviceEdit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceListCustomData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.document:getActions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:updateExecutionTracking_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.document:getList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.edit:cancelEdited",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getDocumentNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceListCustomDataSet",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelControl:getProcessLogicalServers",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instanceControl:setPriority",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.documentControl:multiResubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getModelDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.service:getList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.GWTModel:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.util:disconnect",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.service:getCustomData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getCustomFieldDefinitions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstanceConversationID",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instance:getActions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:isUsedForModelIds",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.archive:serviceArchive",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.service:getPipeline",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.modelControl:refreshModelNames",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.model:getModelDetails",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:createProcessMetadata",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.edit:editIData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceSteps:getStepControl",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.serviceControl:multiResubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:exists",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.modelDetails:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceControl:resubmitInstanceStep",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.service:getActions",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.instanceSteps:getStepPipeline",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstanceErrors",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.report:getInstanceList",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.integrationProcessLogging:createStepMetadata",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceCustomData",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.service:generateListSQL",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:saveStages_wsd",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.document:exists",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.manager:countInstanceIterationByStatus",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instanceSteps:getStepActivityLogs",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.admin:scheduleImageCleanup",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.service:getDetailsSimple",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.instanceDetails:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.reporting.processDataMart:transformAndLoad",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.pmControl:handleResponseEvent",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.serviceControl:resubmit",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getAllModelsAggregateTree_WSD",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.process.instance:getInstanceConversationID",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "rs.monitor.process.GWTStepStatus:_get",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.monitor.archive:getArchiveInfo",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "wm.monitor.instance:getInstanceSteps",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "ws.monitor.process.model:getAllProcessModels",
+			"package": "WmMonitor"
+		},
+		{
+			"serviceName": "pub.event:replicationInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:getEventTypes",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:securityInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:sessionStartInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:alarm",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:reloadEventManagerSettings",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.audit:logToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:gdEnd",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.routing:eventAcknowledgement",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:jmsSendErrorEvent",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:gdStartInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:stat",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:portStatusInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.eda:schema_event",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.routing:subscribe",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:getSubscribers",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:saveEventManagerSettings",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:deleteSubscriber",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:jmsReceiveErrorEvent",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:replication",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:statInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.eda:eventToDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:portStatus",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.routing:send",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:addSubscriber",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.stats:logToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.eda:event",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:security",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:journalInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:txEndInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:error",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:auditErrorInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.sessionEnd:logToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:gdStart",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:sessionExpireInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:txStartInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.exception:logToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:txStart",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:gdEndInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:errorInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:callstackItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:auditError",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:modifySubscriber",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:sessionEndInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:auditInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:txEnd",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:audit",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:journal",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:sessionExpire",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:sessionStart",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.routing:unsubscribe",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:sessionEnd",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event:alarmInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.sessionExpire:logToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.event.sessionStart:logToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:waitForReply",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:getRedeliveryCount",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:syncToProvider",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish.notification:error",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:syncToBroker",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:reply",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:publishAndWait",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:deliver",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:deliverAndWait",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:documentResolverSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.publish:publish",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:add",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:closeStore",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:deleteStore",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:get",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:keys",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:listLocks",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:lock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:put",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:registerStore",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:releaseLocks",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:remove",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.storage:unlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flatFile:getSupportedEncodings",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "pub.flatFile:convertToValues",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "pub.flatFile:convertToString",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:createFFDictionary",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:getAllDefinitions",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:generateDocumentType",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:createDocumentType",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:shutdown",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:saveDocumentDataForUI",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:getDefinition",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:validateStructure",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:getDictionaryEntries",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:saveFFSchemaDefinition",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:saveFFDictionaryDefinition",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:getXMLDocFromFFSchema",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:registerContentHandler",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:SEFParse",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:init",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:getFFSchemaDefinition",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:createFFSchema",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:getFFDictionaryDefinition",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "wm.server.ff:setACLs",
+			"package": "WmFlatFile"
+		},
+		{
+			"serviceName": "pub.remote.gd:send",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote:invoke",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote.gd:restart",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote.gd:end",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote.gd:start",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote.gd:getStatus",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote.gd:submit",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote.gd:invoke",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.remote.gd:retrieve",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:distributeViaFTP",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:getRemoteReleasedList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:notifyPackageRelease",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:deleteReleaseRegistryEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:generateReplicationEvent",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:packageCreation",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:getLocalReleasedList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:distributeViaSvcPush",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:addReleaseRegistryEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:distributeViaSvcPull",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mqtt:triggerSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mqtt:publish",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:backupPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:recoverPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:activatePackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages.hotdeployment:cancel",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:reloadPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:disablePackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:enablePackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:installPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:updateHomePage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:addMimeHeader",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:addBodyPart",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:releaseBodyPartReferenceInTSpace",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:mergeHeaderAndBody",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getBodyPartContent",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:createMimeData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getPrimaryContentType",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getSubContentType",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getEnvelopeStream",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getMimeHeader",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getBodyPartHeader",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getContentType",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mime:getNumParts",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.utils:executeOSCommand",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "wm.jsonapi.logging:init",
+			"package": "WmJSONAPI"
+		},
+		{
+			"serviceName": "wm.jsonapi.logging:deRegister",
+			"package": "WmJSONAPI"
+		},
+		{
+			"serviceName": "wm.jsonapi.jsonapi:processJSONAPIRequest",
+			"package": "WmJSONAPI"
+		},
+		{
+			"serviceName": "wm.jsonapi.mediatype:addSupport",
+			"package": "WmJSONAPI"
+		},
+		{
+			"serviceName": "wm.jsonapi.mediatype:removeSupport",
+			"package": "WmJSONAPI"
+		},
+		{
+			"serviceName": "wm.jsonapi.jsonapi:fetchJSONAPIResponse",
+			"package": "WmJSONAPI"
+		},
+		{
+			"serviceName": "wm.cds.services_java:init",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:RefineQueryField",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getMailConfig",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:addWorkhours",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:DataSource",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:DirectoryRole",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:GdprNotification",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:addWorkminutes",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:getCalendar",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:removePrincipalFromRole",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.permissions_services_java:getResourceTypes",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:deleteCertificate",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:EmailConfig",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateGdprConfig",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:reloadUmUrl",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:lookupPrincipalByName",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:deletePrincipal",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:authenticateUser",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.permissions_services_java:getPrincipalForResource",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:lookupPrincipalByDN",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:status",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.permissions_services_java:updatePrincipalAces",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateMailConfig",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateDatasource",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:Certificate",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateTOTP",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:DirectoryPrincipal",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.permissions_services_java:getPrincipalAcePrivilege",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:deleteCalendar",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:modifyPrincipal",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs.calendar:Calendar",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateDirectoryService",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:listRoles",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:lookupPrincipalByID",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:getRoleMembership",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:createPrincipal",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:listDirectoryServices",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:deleteDirectoryService",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:updateCalendar",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.permissions_services_java:getPrincipalAces",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.permissions_services_java:getResourceIDs",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs.calendar:PeriodEvent",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:getCalendarAdmin",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:MapEntry",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:PagingCookie",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:createDirectoryService",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:searchDirectory",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:createCertificate",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:addPrincipalToRole",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:removePrincipalFromGroup",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:addCertificateUser",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:removeCertificateUser",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:generateUserSharedSecret",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:SearchQuery",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs.calendar:Workday",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:addPrincipalToGroup",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:getWorkDay",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateDatabaseAttributes",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:importXml",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.permissions_services_java:createPrincipalAce",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:deleteDatasource",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:createRole",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs.calendar:CalendarFull",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getDirectoryService",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:getMappingByCert",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:DirectoryService",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateLdapAttributes",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:createDatasource",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getDatasource",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getDirectoryServiceDefaultValues",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:addWorkdays",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:getMembers",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:testDatasourceConnection",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:listCalendars",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateUmUrl",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:updateDirectoryServicesOrder",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:updateCertificate",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:updateCalendarAdmin",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:listCertificates",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getDatabaseAttributes",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:mailConfigTest",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:listDatasources",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getTOTP",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getGdprConfig",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:getGroupMembership",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:getNextWorkDay",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:ping",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.calendar_services_java:queryWorkDays",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.docs:GdprConfig",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:getCertificate",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.services_java:getLdapAttributes",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.certificate_services_java:getMappingByUser",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "wm.cds.pub.services_java:getUsersCount",
+			"package": "WmCDS"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:insertXReference",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.latch:openLatch",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.latch:closeLatch",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.latch:isLatchClosed",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:getCanonicalKey",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:createXReference",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:deleteXReference",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:deleteByObjectId",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:getNativeId",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.date:currentDate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "getWorkingDays",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert.notifier:delete",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:fetchAll",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert.notifier:enable",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert.notifier:list",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:markAsRead",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert.notifier:create",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:markAsUnread",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:severities",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:channels",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:updateChannel",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert.notifier:disable",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:fetchUnread",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:emit",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:getSettings",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert.notifier:update",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:markAllAsRead",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:getChannel",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:countUnread",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:registerChannel",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:setSettings",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:countAll",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.alert:deregisterChannel",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.assets:getChecksums",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.assets:getHostedAPIs",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.admin:enableCache",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.bulk:waitUntilClusterBulkLoadComplete",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.lock:isLockedByCurrentThread",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:containsKey",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.admin:evictExpiredElements",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.serviceResults:resetServerCache",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.admin:clearAllCaches",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:put",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.bulk:setNodeBulkLoadEnabled",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.admin:disableCache",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.lock:releaseLock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:get",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.serviceResults:addCacheEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:search",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:putAll",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.atomic:replaceIfKeyExists",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:getAll",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.atomic:remove",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.serviceResults:resetServiceCache",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.lock:acquireLock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.bulk:isNodeBulkLoadEnabled",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.admin:isCacheDisabled",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.atomic:putIfAbsent",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.serviceResults:listServiceCache",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:removeAll",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.bulk:isClusterBulkLoadEnabled",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:getKeys",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.atomic:replace",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache.admin:clearCache",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.cache:remove",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client:smtp",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:add",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:compare",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:delete",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:get",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:chown",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:registerNotification",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:rm",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:append",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:rmdir",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:symlink",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:putCompletedNotification",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:rename",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client:restClient",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:rename",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:cd",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:search",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:modify",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client:soapClient",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:login",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:chgrp",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:login",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.oauth:executeRequest",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:cdls",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:sessioninfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:mget",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp.admin:getDefaultAlgorithms",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:ls",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:cd",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client:ftp",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp.admin:getHostKey",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:quote",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:shutdown",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client:websocket",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:pwd",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:chmod",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.oauth:getExternalAccessToken",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:put",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:mput",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:delete",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:mkdir",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:cancelNotification",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:logout",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:ls",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client:soapHTTP",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:dir",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:rename",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:get",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ldap:bind",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client:soapRPC",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:mdelete",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:put",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.sftp:logout",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.client.ftp:getCompletedNotification",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.document:XMLValuesToDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.document:documentToXMLValues",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.graphql:loadMany",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.graphql:load",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:getTransportInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:getLastError",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setActivityLog",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:debugLog",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setResponseHeaders",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setResponseCode",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:HTTPRequest",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:invokeService",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setCustomLoggedFields",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:savePipelineToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setResponse",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:tracePipeline",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:savePipeline",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:transportInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:getCallingService",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:restorePipeline",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setResponse2",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:iterator",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setAuditLogFields",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:getSession",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:setResponseHeader",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.flow:restorePipelineFromFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.io:stringToStream",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:streamToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:moveFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:copyFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:bytesToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:stringToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:listFiles",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:getFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:checkFileExistence",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:deleteFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.file:readerToFile",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.json:validate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.json:jsonStringToDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.json:jsonToDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.json.schema:validate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:getStringListItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:stringListToRecordList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:copyListItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:setListItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:getListItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:getRecordListItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:setRecordListItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:appendToRecordList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.list:setStringListItem",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.string:documentArrayToStringTable",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.string:stringTableToDocumentArray",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.string:isNullEmptyOrWhitespace",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.string:lookupTable",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.utils:generateUUID",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.utils:deepClone",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.util:convertSecureString",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:setKeyAndChain",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.keystore.pkcs7:sign",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:userInfoSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.xml:decryptXML",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.util:destroySecureString",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:clearKeyAndChain",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:setKeyAndChainFromBytes",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.xml:signXML",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:signAndEncrypt",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:decryptAndVerify",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.enterpriseGateway:customFilterSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.outboundPasswords:removePassword",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.keystore:getTrustedCertificates",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.outboundPasswords:getPassword",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:generateSalt",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:clearAuthenticationCache",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.pkcs7:verify",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:sign",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.outboundPasswords:listKeys",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.keystore:setKeyAndChain",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:decrypt",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.util:getCertificateInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.outboundPasswords:updatePassword",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:verify",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.outboundPasswords:setPassword",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.pkcs7:sign",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.keystore:getKeyAndChain",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.xml:encryptXML",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:encrypt",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.util:createSecureString",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.ports:hostNamesSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.xml:verifyXML",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.keystore:getCertificate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.util:loadPKCS7CertChain",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.enterpriseGateway:alertSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security:generateHashValue",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.util:createMessageDigest",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xml:loadXMLNode",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xml:loadXMLNode",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:queryXMLNode",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:setNamespaceTag",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:setAttribute",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:getNamespaceTags",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:getGroupValues",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:getAttributes",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:domNodeToXMLData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:setInstanceTag",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:getGroupObjects",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:getInstanceTag",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.xmldata:xmlDataToXMLString",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.universalName:findDocumentType",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.universalName:list",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.universalName:listAll",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.universalName:find",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jwt:generateSignedJWT",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jwt:extractClaimsFromJWT",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jwt:verifyJWT",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.compress:decompressData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.compress:compressData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.schema:validatePipeline",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.schema:validate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.schema:createXSD",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mqtt:triggerSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.mqtt:publish",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.oauth:removeExpiredAccessTokens",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.oauth:getAccessToken",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.oauth:refreshAccessToken",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.oauth:getToken",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.oauth:authorize",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.oauth:introspectToken",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.oauth:revokeToken",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:enablePackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:updateHomePage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:backupPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:reloadPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:installPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:activatePackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:disablePackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages:recoverPackage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.packages.hotdeployment:cancel",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.record:XMLValuesToRecord",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.record:recordToRecordList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.record:length",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.record:recordToXMLValues",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.record:recordListToRecord",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:recordToDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:onClose",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:getDocumentType",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:close",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:pong",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:onError",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:queryDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getPathParameter",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:onText",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getCookies",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:stringToDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:documentToRecord",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:freeDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getQueryParameters",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:onBinary",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:disconnect",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:onConnect",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getHeaders",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:makeArrays",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:send",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getQueryParameter",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getPathParameters",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:ping",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getExtensions",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:loadDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getSubProtocols",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:createRegions",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:getNextNode",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.web:getNodeIterator",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.websocket:getRequest",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:generateReplicationEvent",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:distributeViaSvcPull",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:deleteReleaseRegistryEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:distributeViaSvcPush",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:addReleaseRegistryEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:getLocalReleasedList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:getRemoteReleasedList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:distributeViaFTP",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:packageCreation",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.replicator:notifyPackageRelease",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:updateRepeatingTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:getTaskInfo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:updateOneTimeTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:addOneTimeTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:addRepeatingTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:cancelTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:getTaskIDs",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:getUserTaskList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:resumeTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:updateComplexTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:suspendTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:addComplexTask",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.scheduler:migrateTasksToJDBC",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:suspendJMSTriggers",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:resumeProcessing",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:createJMSTrigger",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:deleteJMSTrigger",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:enableJMSTriggers",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:createTrigger",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:suspendProcessing",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:resumeRetrieval",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:disableJMSTriggers",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:resourceMonitoringSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:suspendRetrieval",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.trigger:deleteTrigger",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.report:runTemplate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.report:runStringTemplate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.report:runTemplateOnPipe",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.report:runFileTemplate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.report:runFileTemplateOnPipe",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.report:runStringTemplateOnPipe",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms.wmjms:sendStream",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:batchTriggerSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms.wmjms:receiveStream",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:acknowledge",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:sendBatch",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:triggerSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:JMSMessage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:send",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:createConsumer",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:waitForReply",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:receive",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:sendAndWait",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:documentResolverSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.jms:reply",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.table:recordListToTable",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.table:tableToStringTable",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.table:tableToRecordList",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.table:stringTableToTable",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.tx:resetOutbound",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.tx:init",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.tx:shutdown",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.latch:isLatchClosed",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:deleteByObjectId",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.sync:shutdown",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:deleteXReference",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:createXReference",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.sync:wait",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.sync:notify",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.latch:openLatch",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.latch:closeLatch",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:insertXReference",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:getCanonicalKey",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.synchronization.xref:getNativeId",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime.keystore:processEncryptedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:processCertsOnlyData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:createEncryptedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:getContentType",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime.keystore:createSignedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:createCertsOnlyData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:processSignedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:processEncryptedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime.keystore:createSignedAndEncryptedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:createSignedAndEncryptedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.smime:createSignedData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:listProvider",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:removeHeaderBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getSOAPMessage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:relatesTo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getServicePipeline",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getHeaderElement",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getInitialSOAPMessage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:messageID",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getHeaderBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getHeader",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:removeHeaderElement",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:removeHeaderEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getActor",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getBodyBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsrm:terminateSequence",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:removeProperty",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getMessageAddressingProperties",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsrm:waitUntilSequenceCompleted",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.processor:processMessage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.schema:envelope",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.processor:unregisterProcessor",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:unregisterProvider",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:handlerSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:addHeaderElement",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:exitUnableToUnderstand",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:generateDocumentTypesFromWSDL",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:addBodyBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:addBodyEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getHeaderBlockQNames",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:from",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.processor:list",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.schema:wsdl",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:from",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:action",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:unregisterConsumer",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getEncoding",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:problemHeaderQName",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsrm:createSequence",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:addHeaderBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:replyTo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getHeaderEntries",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:addHeaderEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:retryAfter",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:setWSDEffectivePolicy",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getBody",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getBodyEntries",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:registerWmConsumer",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:problemAction",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:messageID",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:callbackServiceSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:createSoapData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:removeBodyBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:schema_wsa",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:validateSoapData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.processor:processRPCMessage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getMustUnderstand",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:retryAfter",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:replyTo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.schema:envelope_1_2",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:registerWmProvider",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:action",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:hasFaultMessage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsrm:closeSequence",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getWebServiceInvocationProperties",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.schema:encoding",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getTrailers",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getDocument",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.processor:registerProcessor",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:soapDataToString",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:QName",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:registerProvider",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:resetWSDEffectivePolicy",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:updateFaultBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsrm:sendAcknowledgementRequest",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:removeTrailer",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:problemIRI",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:SOAPFault",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:relatesTo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:soapDataToBytes",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:requestResponseSpec",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:setProperty",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:removeBodyEntry",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.schema:encoding_1_2",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:faultTo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:registerConsumer",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:to",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:addTrailer",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:listConsumer",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:convertToVersionSpecificSOAPFault",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:to",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:setSOAPMessage",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:streamToSoapData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:stringToSoapData",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getFaultBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa.submission:schema_wsa_submission",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:addFaultBlock",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getXOPObjectContent",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getBodyBlockQNames",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.wsa:faultTo",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:getQName",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.handler:getProperty",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.soap.utils:createXOPObject",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.sap.idoc.routing:inbound",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:invokeTransaction",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.ALE:InboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:encodeString",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:releaseSession",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:decodeString",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.bapi:encode",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.listener:getAttributes",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:setCacheParameter",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:createTID",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:getStructureDefinition",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:list",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.XML:outboundProcessInfo",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.XML:xmlRoutingInfo",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:getMessageBody",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:encodeSDATA",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:sendIDoc",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc.routing:outbound",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.listener:listenerAuthorizationCheck",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:recordToIDoc",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:documentToIDoc",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.ALE:aleMappingInfo_Default",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:iDocToTables",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.BAPI:InboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.bapi:decode",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.XML:OutboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.rfc:encode",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.ALE:aleRoutingInfo_Default",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.RFC:OutboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.bapi:rollback",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.ALE:OutboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.RFC:InboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.monitor.idoc:trace",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:log",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.util:createTID",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:decodeSDATA",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc.routing:inboundDefault",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:getFunctionInterface",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:transformFlatToHierarchy",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:decode",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:storeConfig",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:sendIDocLists",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:get",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:getThroughput",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.BAPI:OutboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:encode",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:sweep",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:lockSession",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:idocToString",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.util:getListenerRuntimeStatus",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:deleteAll",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.IS:OutboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.bapi:createTemplate",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc.routing:unregisterService",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.XML:InboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:invoke",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:getAttributes",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.ALE:aleRoutingInfo",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:connect",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc.routing:outboundDefault",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:ping",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.client:confirmTID",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.ALE:aleMappingInfo",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.rfc:createTemplate",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc.routing:registerService",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:iDocToDocument",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:tablesToIDoc",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.ALE:getRoutingInfo_Default",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:transformHierarchyToFlat",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.monitor.aleaud01:swapSenderReceiverLS",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.rfc:decode",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.monitor.systat01:report",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transport.IS:InboundProcess",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.transaction:delete",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.bapi:commit",
+			"package": "WmSAP"
+		},
+		{
+			"serviceName": "pub.sap.idoc:iDocToRecord",
+			"package": "WmSAP"
+		}
+	]
+}

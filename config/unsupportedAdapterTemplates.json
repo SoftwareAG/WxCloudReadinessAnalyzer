@@ -1,0 +1,12 @@
+{
+	"unsupportedAdapterTemplates": [
+		{
+			"adapterTypeName": "JDBCAdapter",
+			"templateName": "ExecuteService"
+		},
+		{
+			"adapterTypeName": "JDBCAdapter",
+			"templateName": "StoredProcedure"
+		}
+	]
+}

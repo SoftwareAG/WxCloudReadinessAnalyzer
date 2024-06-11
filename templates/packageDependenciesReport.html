@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" value="text/html;chaset=utf-8">
+  <style>
+    %include reports.css%
+  </style>
+  <title>Package Dependencies Report</title>
+</head>
+<body class="body">
+<table width="100%">
+	<tbody>
+		<tr>
+			<td><table class="tableView" cellpadding="2"> 
+				<tbody>
+					<tr>
+						<td class="title" colspan="6" align="center">Dependents of the %value packageName% package &nbsp;</th>
+					</tr>
+					<tr>
+					  <td colspan="3">Report date: %value timestamp%
+					</tr>
+					%ifvar dependentReferenceReport%
+					<tr>
+					  <th>Referenced Asset &nbsp;</th>
+					  <th>Referenced Asset Type &nbsp;</th>
+					  <th>Dependent Package &nbsp;</th>
+					  <th>Dependent Asset &nbsp;</th>
+					  <th>Dependent Asset Type &nbsp;</th>
+					</tr>
+					%loop dependentReferenceReport%
+					<tr>
+					  <td>%value referencedAsset% &nbsp;</td>
+					  <td>%value referencedAssetType% &nbsp;</td>
+					  <td>%value dependentPackage% &nbsp;</td>
+					  <td>%value dependentAsset% &nbsp;</td>
+					  <td>%value dependentAssetType% &nbsp;</td>
+					</tr>
+					%endloop%
+					<tr>
+						<td class="subHeading" colspan="6">Dependencies found: %value numDependents% &nbsp;</td>
+					</tr>	
+					%else%
+					<tr>
+						<td class="subHeading" colspan="6">No package dependencies found. &nbsp;</td>
+					</tr>
+					%endif%
+				</tbody>
+			</td></table>
+		</tr>
+	<tbody>
+</table>
+</body>
+</html>  

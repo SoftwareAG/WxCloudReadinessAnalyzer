@@ -1,0 +1,33 @@
+.tooltip { /* Container for our tooltip */
+    position: relative;   
+    display: inline-block;
+}
+
+.tooltip .tooltiptext { /* This is for the tooltip text */
+   visibility: hidden;
+   top: -5px;
+   left: 125%;
+   width: 100px;
+   background-color: #8512d5;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   border-radius: 10px;  /* This defines tooltip text position */
+   position: absolute;
+   z-index: 1;
+} 
+
+.tooltip:hover .tooltiptext { /* Makes tooltip text visible when text is hovered on */
+   visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+ content: " ";
+ position: absolute;
+ top: 50%;
+ right: 100%; /* This will position the arrow on the left of the tooltip */
+ margin-top: -10px;
+ border-width: 10px;
+ border-style: solid;
+ border-color: transparent #555 transparent transparent; /* This will make the right border black*/
+}

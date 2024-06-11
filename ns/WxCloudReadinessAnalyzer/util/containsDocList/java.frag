@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">containsDocList</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgcGMgPSBwaXBlbGluZS5nZXRDdXJzb3IoKTsNCklEYXRhIGRvY3VtZW50ID0g
+SURhdGFVdGlsLmdldElEYXRhKCBwYywgImRvY3VtZW50IiApOw0KU3RyaW5nIG5vZGVUeXBlID0g
+bnVsbDsNClN0cmluZyBjb250YWluc0RvY0xpc3QgPSAiZmFsc2UiOw0KT2JqZWN0IG5vZGUgPSBu
+dWxsOw0KDQppZihkb2N1bWVudCAhPW51bGwpIHsNCglJRGF0YUN1cnNvciBkYyA9IGRvY3VtZW50
+LmdldEN1cnNvcigpOw0KCXdoaWxlKGRjLm5leHQoKSl7DQoJCW5vZGUgPSBkYy5nZXRWYWx1ZSgp
+Ow0KCQlpZiAobm9kZS5nZXRDbGFzcygpLmdldE5hbWUoKS5lbmRzV2l0aCgiTGNvbS53bS5kYXRh
+LklEYXRhOyIpICYmIG5vZGUuZ2V0Q2xhc3MoKS5pc0FycmF5KCkpew0KCQkJY29udGFpbnNEb2NM
+aXN0ID0gInRydWUiOw0KCQkJYnJlYWs7DQoJCX0NCgl9DQp9DQpJRGF0YVV0aWwucHV0KCBwYywg
+ImNvbnRhaW5zRG9jTGlzdCIsIGNvbnRhaW5zRG9jTGlzdCk7DQpwYy5kZXN0cm95KCk7DQoNCgk=
+</value>
+</Values>

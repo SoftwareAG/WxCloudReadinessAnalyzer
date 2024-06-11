@@ -1,0 +1,12 @@
+{
+	"unsupportedServices": [
+		{
+			"serviceName": "pub.security.keystore:getCertificate",
+			"package": "WmPublic"
+		},
+		{
+			"serviceName": "pub.security.util:loadPKCS7CertChain",
+			"package": "WmPublic"
+		}
+	]
+}

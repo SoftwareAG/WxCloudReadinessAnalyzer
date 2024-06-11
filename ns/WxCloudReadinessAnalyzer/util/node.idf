@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">WxCloudReadinessAnalyzer.util</value>
+  <value name="node_pkg">WxCloudReadinessAnalyzer</value>
+  <value name="is_public">false</value>
+  <value name="shared">c3RhdGljIFN0cmluZ1tdIHNwbGl0U3RyaW5nKFN0cmluZyBzKXsKCUFycmF5TGlzdDxTdHJpbmc+
+IHN0ckxpc3QgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oKTsKCVN0cmluZyBzdWIgPSBuZXcgU3Ry
+aW5nKCk7CglpbnQgc3RhcnQgPSAwOwoJaW50IGVuZCA9IDA7CglpbnQgY291bnQgPSAwOwoJd2hp
+bGUoc3RhcnQgPiAtMSl7Ci8vCQkJc3RhcnQgPSBzLmluZGV4T2YoIn5+cHViLiIpOwoJCWVuZCA9
+IGluZGV4T2ZCeVJlZ2V4KCJ+fnB1YlxcLlteXFxzXStcXHMiLCBzKTsKCQlpZiAoZW5kIDwgMCl7
+CgkJCXN1YiA9IHMuc3Vic3RyaW5nKHN0YXJ0KTsKCQkJYnJlYWs7CgkJfSBlbHNlIHsKCQkJc3Vi
+ID0gcy5zdWJzdHJpbmcoc3RhcnQsIGVuZCk7CgkJfQoJCXN0ckxpc3QuYWRkKHN1Yik7CgkJcyA9
+IHMucmVwbGFjZUZpcnN0KHN1YiwgIiIpOwoJCWlmIChjb3VudCsrPjEwKXsKCQkJYnJlYWs7CgkJ
+fQoJfQoJcmV0dXJuIHN0ckxpc3QudG9BcnJheShuZXcgU3RyaW5nWzBdKTsKfQoKcHVibGljIHN0
+YXRpYyBpbnQgaW5kZXhPZkJ5UmVnZXgoU3RyaW5nIHBhdHRlcm4sIFN0cmluZyB0ZXh0KSB7CglQ
+YXR0ZXJuIHAgPSBQYXR0ZXJuLmNvbXBpbGUocGF0dGVybik7CiAgICBNYXRjaGVyIG0gPSBwLm1h
+dGNoZXIodGV4dCk7CiAgICBpZiAoIG0uZmluZCgpICkgewogICAgICAgIHJldHVybiBtLnN0YXJ0
+KCk7IAogICAgfQogICAgcmV0dXJuIC0xOwp9CgkKcHVibGljIHN0YXRpYyBjbGFzcyBWZXJzaW9u
+Q29tbWVudHsKICBwdWJsaWMgU3RyaW5nIHZlcnNpb247CiAgcHVibGljIFN0cmluZyBjb21tZW50
+OyAKfQoKcHVibGljIHN0YXRpYyBjbGFzcyBWZXJzaW9uQ29tbWVudENvbXBhcmF0b3IgaW1wbGVt
+ZW50cyBDb21wYXJhdG9yPFZlcnNpb25Db21tZW50PiB7CiAgICBAT3ZlcnJpZGUKICAgIHB1Ymxp
+YyBpbnQgY29tcGFyZShWZXJzaW9uQ29tbWVudCB2YzEsIFZlcnNpb25Db21tZW50IHZjMikgewog
+ICAgICAgIHJldHVybiBuZXcgVmVyc2lvbkNvbXBhcmF0b3IoKS5jb21wYXJlKHZjMS52ZXJzaW9u
+LHZjMi52ZXJzaW9uKTsKICAgIH0KfQoKcHVibGljIHN0YXRpYyBjbGFzcyBWZXJzaW9uQ29tcGFy
+YXRvciBpbXBsZW1lbnRzIENvbXBhcmF0b3I8U3RyaW5nPiB7CiAgICBAT3ZlcnJpZGUKCXB1Ymxp
+YyBpbnQgY29tcGFyZShTdHJpbmcgdjEsIFN0cmluZyB2MikgewoJCWludCBjbXAgPSAwOwoJCVN0
+cmluZ1tdIHYgPSB2MS5zcGxpdCgiXFwuIik7CgkJU3RyaW5nW10gdnRjID0gdjIuc3BsaXQoIlxc
+LiIpOwoJCWZvciAoaW50IGk9MDsgaTx2Lmxlbmd0aDsgaSsrICl7CgkJCWlmKEludGVnZXIudmFs
+dWVPZih2W2ldKSA+IEludGVnZXIudmFsdWVPZih2dGNbaV0pKXsKCQkJCWNtcCA9IC0xOwoJCQkJ
+YnJlYWs7CgkJCX0gZWxzZSBpZihJbnRlZ2VyLnZhbHVlT2YodltpXSkgPCBJbnRlZ2VyLnZhbHVl
+T2YodnRjW2ldKSl7CgkJCQljbXAgPSAxOwoJCQkJYnJlYWs7CgkJCX0KCQl9CgkJcmV0dXJuIGNt
+cDsKCX0KfQoJ</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+    <value>com.wm.lang.ns.NSNode</value>
+    <value>java.io.File</value>
+    <value>java.io.FileNotFoundException</value>
+    <value>java.io.FileOutputStream</value>
+    <value>java.io.FileWriter</value>
+    <value>java.io.IOException</value>
+    <value>java.io.ObjectInputStream</value>
+    <value>java.io.PrintWriter</value>
+    <value>java.nio.charset.StandardCharsets</value>
+    <value>java.nio.file.Files</value>
+    <value>java.nio.file.Path</value>
+    <value>java.nio.file.Paths</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.Arrays</value>
+    <value>java.util.Collections</value>
+    <value>java.util.Comparator</value>
+    <value>java.util.HashMap</value>
+    <value>java.util.List</value>
+    <value>java.util.Map</value>
+    <value>java.util.Set</value>
+    <value>java.util.regex.Matcher</value>
+    <value>java.util.regex.Pattern</value>
+  </array>
+</Values>

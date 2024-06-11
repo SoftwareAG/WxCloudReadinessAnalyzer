@@ -1,0 +1,9 @@
+{
+  "compatibleAdapters" : [ {
+    "adapterTypeName" : "JDBCAdapter",
+    "adapterDisplayName" : "webMethods Adapter for JDBC",
+    "adapterPackageName" : "WmJDBCAdapter"
+  } ]
+}
+
+

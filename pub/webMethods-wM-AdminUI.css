@@ -1,0 +1,31 @@
+.breadcrumb{
+	display:none !important;
+}
+
+.breadcrumb, .breadcrumb-left, .breadcrumb-right {
+    display:none !important;
+}
+
+.breadcrumb-left {
+    display:none !important;
+}
+
+.breadcrumb-right {
+    display:none !important;
+}
+
+table tr td.breadcrumb {
+    display:none !important;
+}
+
+.menusection-Settings{
+	display:none !important;
+}
+
+body table tr td.menusection-Settings {
+	display:none !important;
+}
+
+table.menuTable tr td.menusection-Settings {
+	display:none !important;
+}
