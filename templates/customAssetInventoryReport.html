@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" value="text/html;chaset=utf-8">
+  <style>
+    %include reports.css%
+  </style>
+  <title>Custom Asset Inventory Report</title>
+</head>
+<body class="body">
+	<table>
+		<tbody>
+			<tr>
+				<td class="title">Custom Integration Server Assets</td>
+			</tr>
+			<tr>
+				<td>Report date: %value timestamp%
+			</tr>
+			%ifvar packageAssetsList%
+			%loop packageAssetsList%
+			<tr>
+				<td>
+					<table  width="100%" class="tableView" cellpadding="2"> 
+						<tbody>
+							<tr>
+								<td class="heading">Package: %value packageName%</td>
+							</tr>
+							%ifvar packageState equals('Enabled')%
+							%ifvar adapterConnections%
+							<tr>
+								<td class="subHeading" align="center">Adapter Connections</td>
+							</tr>
+							%loop adapterConnections%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar adapterListeners%
+							<tr>
+								<td class="subHeading" align="center">Adapter Listeners</td>
+							</tr>
+							%loop adapterListeners%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar adapterServices%
+							<tr>
+								<td class="subHeading" align="center">Adapter Services</td>
+							</tr>
+							%loop adapterServices%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar brokerTriggers%
+							<tr>
+								<td class="subHeading" align="center">Broker Triggers</td>
+							</tr>
+							%loop brokerTriggers%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar docTypes%
+							<tr>
+								<td class="subHeading" align="center">Document Types</td>
+							</tr>
+							%loop docTypes%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar docParts%
+							<tr>
+								<td class="subHeading" align="center">Flat File Dictionaries</td>
+							</tr>
+							%loop docParts%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar ffSchemas%
+							<tr>
+								<td class="subHeading" align="center">Flat File Schemas</td>
+							</tr>
+							%loop ffSchemas%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar flowServices%
+							<tr>
+								<td class="subHeading" align="center">Flow Servicess</td>
+							</tr>
+							%loop flowServices%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar javaServices%
+							<tr>
+								<td class="subHeading" align="center">Java Servicess</td>
+							</tr>
+							%loop javaServices%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar jmsTriggers%
+							<tr>
+								<td class="subHeading" align="center">JMS Triggers</td>
+							</tr>
+							%loop jmsTriggers%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar restDescriptors%
+							<tr>
+								<td class="subHeading" align="center">REST Descriptors</td>
+							</tr>
+							%loop restDescriptors%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar restResources%
+							<tr>
+								<td class="subHeading" align="center">REST Resources</td>
+							</tr>
+							%loop restResources%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar wsConsumers%
+							<tr>
+								<td class="subHeading" align="center">Web Service Consumers</td>
+							</tr>
+							%loop wsConsumers%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar wsDescriptors%
+							<tr>
+								<td class="subHeading" align="center">Web Service Descriptors</td>
+							</tr>
+							%loop wsDescriptors%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%ifvar xsltServices%
+							<tr>
+								<td class="subHeading" align="center">XSLT Services</td>
+							</tr>
+							%loop xsltServices%
+							<tr>
+							  <td>%value assetName% &nbsp;</td>
+							</tr>
+							%endloop%
+							<tr>
+								<td> &nbsp;</td>
+							</tr>
+							%endif%
+							%else%
+							<tr>
+								<td class="subHeading" >Disabled packages cannot be scanned. &nbsp;</td>
+							</tr>
+							%endif%
+						</tbody>	
+					</table>
+				</td>
+			</tr>
+			%endloop%
+			%endif%
+		<tbody>
+	</table>
+</body>
+</html>  
