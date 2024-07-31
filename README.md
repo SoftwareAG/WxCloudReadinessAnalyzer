@@ -1,7 +1,7 @@
 # Package Name : WxCloudReadinessAnalyzer
 To use the analyzer:
-1. Install the WxPreUpgradeAnalyzer package and refresh the browser. Pre-Upgrade Analyzer should appear under the Solutions menu.
-2. Open the WmPublic/config/fileAccessControl.cnf file and add the “packages/WxCloudReadinessAnalyzer/pub/reports” directory to both the allowedReadPaths and allowedDeletePaths. Reload the WmPublic package.
+1. Install the WxCloudReadinessAnalyzer package and refresh the browser. Pre-Upgrade Analyzer should appear under the Solutions menu.
+2. Open the WmPublic/config/fileAccessControl.cnf file and add the “packages/WxCloudReadinessAnalyzer/pub/reports” directory to the allowedReadPaths, allowedWritePaths and allowedDeletePaths. Reload the WmPublic package.
 3. Clicking the link will open the Cloud Readiness Analyzer in a new tab.
 4. The “Create Reports” section displays a link for each available report.
 5. Optional report inputs are italicized, while required inputs are not. Required inputs with no default a marked additionally with an asterisk. Filters use standard regular expression syntax. For example, to run a report against packages starting with “My”, the filter syntax would be “My.+”.
