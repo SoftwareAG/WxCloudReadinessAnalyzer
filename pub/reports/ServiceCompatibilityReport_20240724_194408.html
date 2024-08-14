@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" value="text/html;chaset=utf-8">
+  <style>
+    .title {
+    background-color: #08429C;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+	height: 2em;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+.tableView th,
+.tableForm th {
+    border: 1px solid #dcdcdc;
+	font-weight : bold;
+	padding-top: 0.5em;
+    padding-bottom: 0.5em;
+	padding-left: 1em;
+	text-align: left;
+}
+.subHeading {
+    background-color: #FFFFFF;
+    color: #08429C;
+    text-align: center;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+	font-size: 1em;
+}
+.tableView .heading,
+.tableForm .heading {
+    border: none;
+    border-collapse: collapse;
+    background-color: #EBF0F7;
+    color: #08429C;
+    padding: 0px 0px 0px 1em;
+    text-align: center;
+    font-weight: bold;
+    height: 1.5em;
+	font-size: 1.5em;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    letter-spacing: 1px;
+}
+body table tr td ul li {
+    padding: 1em;
+    border: 0px solid #ccc;
+    height: 1em;
+    list-style-type: disc; 
+    width: 25em;
+    margin: 0em 0em 0.25em 3em;
+    color: #007aa3;
+}
+
+body table tr td ul li a {
+    color: #1776BF;
+}
+  </style>
+  <title>Cloud Migration Service Compatibility Report</title>
+</head>
+<body class="body">
+<table width="100%">
+	<tbody>
+		<tr>
+			<td><table class="tableView" cellpadding="2"> 
+				<tbody>
+					<tr>
+						<td class="title" colspan="5">Services incompatible with Cloud or Edge deployment &nbsp;</th>
+					</tr>
+					<tr>
+					  <td colspan="3">Report date: Wed Jul 24, 2024 19:44 PDT					</tr>
+					<tr>
+						<td class="heading" colspan="5" align="center">Dependents of services not currently supported &nbsp;</th>
+					</tr>
+					
+					<tr>
+					  <th>Referenced Package &nbsp;</th>
+					  <th>Referenced Service &nbsp;</th>
+					  <th>CRT &nbsp;</th>
+					  <th>ERT &nbsp;</th>
+					  <th>Dependent Package &nbsp;</th>
+					  <th>Dependent Service &nbsp;</th>
+					</tr>
+					
+					<tr>
+					  <td>WmFlatFile &nbsp;</td>
+					  <td>pub.flatFile:convertToValues &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Sandbox &nbsp;</td>
+					  <td>Sandbox:parseSvcCompatibilityCSV &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmFlatFile &nbsp;</td>
+					  <td>pub.flatFile:convertToString &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:convertFlatFileDataToString &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.client:soapClient &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>ErcotLoopback &nbsp;</td>
+					  <td>ErcotLoopback.consumer.ercotConsumer_.connectors:Operations_MarketInfo &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.client:soapClient &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>ErcotLoopback &nbsp;</td>
+					  <td>ErcotLoopback.consumer.ercotConsumer_.connectors:Operations_MarketTransactions &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.client:soapClient &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>ErcotLoopback &nbsp;</td>
+					  <td>ErcotLoopback.consumer.ercotConsumer_.connectors:Operations_Alerts &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt:mapEdi867SlsrptLargeDoc &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createAdapterCompatibilityReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>SwAGPackageAnalysis &nbsp;</td>
+					  <td>swag.rnd.tools:analyzePackages &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createCustomAssetInventoryReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDoc &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852Proact &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.invrpt:mapEdi846Invrpt &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.util:getPackageServices &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createPackageDependenciesReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createServiceCompatibilityReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:findUnresolvedReferences &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createJavaServiceDependenciesReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDocOFX &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt:mapEdi867Slsrpt &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:writeFaltFileDataToFile &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:getLastError &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:findPackageDependents &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createAdapterCompatibilityReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>SwAGPackageAnalysis &nbsp;</td>
+					  <td>swag.rnd.tools:analyzePackages &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>SwAGPackageAnalysis &nbsp;</td>
+					  <td>swag.rnd.tools:analyzePackage &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.util:getPackageServices &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:findUnresolvedReferences &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:findPackageDependents &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.util:extractReferenceData &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:debugLog &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>SwAGPackageAnalysis &nbsp;</td>
+					  <td>swag.rnd.internal:analyzePkg &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt:mapEdi867SlsrptLargeDoc &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDoc &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852Proact &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.invrpt:mapEdi846Invrpt &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.common:getTechDataPartnerCode &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDocOFX &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:getTPAData &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentLargeDataMapOFX &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentMap &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:writeFaltFileDataToFile &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentLargeDataMap &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:convertFlatFileDataToString &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:savePipelineToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapDetail &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt:mapEdi867SlsrptLargeDoc &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDoc &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852Proact &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.common:getTechDataPartnerCode &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDocOFX &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:getTPAData &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentLargeDataMapOFX &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:writeFaltFileDataToFile &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentLargeDataMap &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:convertFlatFileDataToString &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.flow:restorePipelineFromFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapDetail &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:stringToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createAdapterCompatibilityReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:stringToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createCustomAssetInventoryReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:stringToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createPackageDependenciesReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:stringToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createServiceCompatibilityReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:stringToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createJavaServiceDependenciesReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:stringToFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>SwAGPackageAnalysis &nbsp;</td>
+					  <td>swag.rnd.internal:analyzePkg &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:listFiles &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.ui:listReports &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:getFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>Sandbox &nbsp;</td>
+					  <td>Sandbox:parseSvcCompatibilityCSV &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:getFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getCompatibleAdapters &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:getFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:getUnsupportedServiceList &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:getFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getUnsupportedAdapterTemplates &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.file:deleteFile &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.ui:deleteReports &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.json:jsonStringToDocument &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getCompatibleAdapters &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.json:jsonStringToDocument &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:getUnsupportedServiceList &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.json:jsonStringToDocument &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getUnsupportedAdapterTemplates &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.string:lookupTable &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getAdapterListenerNotifications &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.string:lookupTable &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:checkServiceSettings &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.string:lookupTable &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getAdapterPollingNotifications &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.string:lookupTable &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.dependency:listPackageAssets &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.utils:generateUUID &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>ErcotLoopback &nbsp;</td>
+					  <td>ErcotLoopback.consumer:consumerWrapper &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.security.keystore:getCertificate &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>ErcotLoopback &nbsp;</td>
+					  <td>ErcotLoopback.consumer:consumerWrapper &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runTemplate &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>TestTemplate &nbsp;</td>
+					  <td>TestTemplate:runTemplate &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runStringTemplate &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>TestTemplate &nbsp;</td>
+					  <td>TestTemplate:runStringTemplate &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runTemplateOnPipe &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createAdapterCompatibilityReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runTemplateOnPipe &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createCustomAssetInventoryReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runTemplateOnPipe &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createPackageDependenciesReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runTemplateOnPipe &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createServiceCompatibilityReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runTemplateOnPipe &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.report:createJavaServiceDependenciesReport &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runFileTemplate &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>TestTemplate &nbsp;</td>
+					  <td>TestTemplate:runFileTemplate &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.report:runFileTemplateOnPipe &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>TestTemplate &nbsp;</td>
+					  <td>TestTemplate:runFileTemplateOnPipe &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WmPublic &nbsp;</td>
+					  <td>pub.sync:wait &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td> &nbsp;</td>
+					  <td>OnPremAddInts &nbsp;</td>
+					  <td>OnPremAddInts:addInts &nbsp;</td>
+					</tr>
+										<tr>
+						<td class="subHeading" colspan="6">84 dependencies found. &nbsp;</td>
+					</tr>
+										<tr>
+						<td colspan-"4"> &nbsp;</td>
+					</tr>
+				</tbody>
+			</table></td>
+		</tr>	
+			<td><table class="tableView" cellpadding="2"> 
+				<tbody>
+					<tr>
+						<td class="heading" colspan="5" align="center">Services with unsupported settings &nbsp;</th>
+					</tr>
+					
+					<tr>
+					  <th>Package &nbsp;</th>
+					  <th>Service &nbsp;</th>
+					  <th>Stateless &nbsp;</th>
+					  <th>Pipeline Debug &nbsp;</th>
+					  <th>Audit Enabled &nbsp;</th>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.invrpt.segmentMap:segmentMap &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.common:getCustomerCode &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapN1Detail &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapQTYREF &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt:mapEdi867SlsrptLargeDoc &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapDTM &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapSummary &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapN1REF &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:segmentMap &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.invrpt.segmentMap:mapLINAndBIA &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.invrpt.segmentMap:mapDetail &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapCustomerNo &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapN3 &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.invrpt:mapEdi846Invrpt &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapLIN &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapQTYPID &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.invrpt.segmentMap:mapSummary &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.common:getTechDataPartnerCode &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.common:getHoldLocationCode &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt:mapEdi867Slsrpt &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapDetail &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4010 &nbsp;</td>
+					  <td>ediMapChannel4010.inbound.slsrpt.segmentMap:mapPER &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:getTPAData &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap.segmentMapUtil:mapXQ &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap.segmentMapUtil:mapLIN &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentLargeDataMapOFX &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentMap &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:writeFaltFileDataToFile &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap:segmentLargeDataMap &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDoc &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852Proact &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap.segmentMapUtil:mapZASDQ &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.common:convertFlatFileDataToString &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact.segmentMap.segmentMapUtil:quantityByQualifiers &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_EdiMapChannel4030 &nbsp;</td>
+					  <td>ediMapChannel4030.inbound.proact:mapEdi852ProactLargeDocOFX &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_SapRoutingRule &nbsp;</td>
+					  <td>sap.outbound.SAPB2B:Z_WRITE_XML_TO_FILE &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_SapRoutingRule &nbsp;</td>
+					  <td>sap.outbound.SAPB2B:Z_WM_INVOKE_EDI945 &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_SapRoutingRule &nbsp;</td>
+					  <td>sap.outbound.SAPB2B:Z_EXCHANGE_RATE &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>Adobe_SapRoutingRule &nbsp;</td>
+					  <td>sap.outbound.CRMB2B:ZCHAT_RECEIVE_SID &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>CloudCompatibilityTest &nbsp;</td>
+					  <td>CloudCompatibilityTest:debugPipeline &nbsp;</td>
+					  <td>True &nbsp;</td>
+					  <td>Save &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getAdapterConnections &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+					
+					<tr>
+					  <td>WxCloudReadinessAnalyzer &nbsp;</td>
+					  <td>WxCloudReadinessAnalyzer.adapters:getAdapterListeners &nbsp;</td>
+					  <td>False &nbsp;</td>
+					  <td>None &nbsp;</td>
+					  <td>Never &nbsp;</td>
+					</tr>
+										<tr>
+						<td class="subHeading" colspan="6">42 services found. &nbsp;</td>
+					</tr>
+									</tbody>
+			</td></table>
+		</tr>
+	<tbody>
+</table>
+</body>
+</html>  
