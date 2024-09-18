@@ -1102,7 +1102,12 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="%packageNameFilter%" TIMEOUT="" SERVICE="WxCloudReadinessAnalyzer.util:matchesRegex" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE TIMEOUT="" SERVICE="WxCloudReadinessAnalyzer.util:matchesRegex" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -1290,7 +1295,21 @@
 <MAPCOPY FROM="/packages;4;0;WxCloudReadinessAnalyzer.util.doc:packageListItem/name;1;0" TO="/inString;1;0">
 </MAPCOPY>
 </MAP>
+
+<MAP MODE="OUTPUT">
+</MAP>
 </INVOKE>
+
+<BRANCH TIMEOUT="" SWITCH="/matches">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<EXIT NAME="false" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
+  <COMMENT></COMMENT>
+</EXIT>
+</BRANCH>
+</SEQUENCE>
 </BRANCH>
 
 <INVOKE TIMEOUT="" SERVICE="WxCloudReadinessAnalyzer.dependency:listPackageAssets" VALIDATE-IN="$none" VALIDATE-OUT="$none">
@@ -3093,6 +3112,9 @@
 </DATA>
 </MAPSET>
 </MAP>
+
+<MAP MODE="OUTPUT">
+</MAP>
 </INVOKE>
 </SEQUENCE>
 
@@ -3106,7 +3128,7 @@
 </INVOKE>
 </SEQUENCE>
 
-<INVOKE TIMEOUT="" SERVICE="pub.flow:clearPipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none" DISABLED="true">
+<INVOKE TIMEOUT="" SERVICE="pub.flow:clearPipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -3193,7 +3215,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE TIMEOUT="" SERVICE="pub.report:runTemplateOnPipe" VALIDATE-IN="$none" VALIDATE-OUT="$none" DISABLED="true">
+<INVOKE TIMEOUT="" SERVICE="pub.report:runTemplateOnPipe" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->

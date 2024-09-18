@@ -38,6 +38,8 @@ cDsKCX0KfQoJ</value>
   <array name="implements" type="value" depth="1">
   </array>
   <array name="imports" type="value" depth="1">
+    <value>com.wm.util.coder.IDataCoder</value>
+    <value>com.wm.util.coder.IDataJSONCoder</value>
     <value>com.wm.app.b2b.server.ServerAPI</value>
     <value>com.wm.lang.ns.NSNode</value>
     <value>java.io.File</value>

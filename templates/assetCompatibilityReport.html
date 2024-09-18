@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" value="text/html;chaset=utf-8">
+  <style>
+    %include reports.css%
+  </style>
+  <title>Cloud Migration Asset Compatibility Report</title>
+</head>
+<body class="body">
+<table>
+	<tbody>
+		<tr>
+			<td>
+				<tr>
+					<td class="title" colspan="4">Package assets incompatible with Cloud or Edge deployment &nbsp;</th>
+				</tr>
+				<tr>
+					<td colspan="4">Report date: %value timestamp%
+					%ifvar unsupportedAssets%
+					%loop unsupportedAssets%
+						<table class="tableView" cellpadding="2" width="100%"> 
+							<tbody>
+								<tr>
+								  <td class="heading" colspan="4" >Package: %value packageName%</td>
+								  <td> &nbsp;</th>
+								</tr>
+								%ifvar assets%
+								<tr>
+									<td class="subHeading" colspan="4" align="center">Unsupported Assets: %value numAssets%</td>
+								</tr>
+								<tr>
+									<th>Asset &nbsp;</th>
+									<th>Asset Type &nbsp;</th>
+									<th>Comments &nbsp;</th>	
+									<th>Dependents &nbsp;</th>
+								</tr>
+								%loop assets%
+								<tr>
+								  <td>%value assetName% &nbsp;</td>
+								  <td>%value assetType% &nbsp;</th>
+								  <td>%value comment% &nbsp;</td>
+								  <td align="center">%value numDependents% &nbsp;</th>
+								</tr>
+								%ifvar dependents%
+								<tr>
+									<td class="subHeadingLeft">Dependents &nbsp;</td>
+									<td class="subHeadingLeft">Package &nbsp;</td>
+									<td class="subHeadingLeft">Asset &nbsp;</td>
+									<td class="subHeadingLeft">Type &nbsp;</td>	
+								</tr>
+								%loop dependents%
+								<tr>
+									<td> </td>
+									<td>%value dependentPackage% &nbsp;</td>
+									<td>%value dependentAsset% &nbsp;</td>
+									<td>%value dependentAssetType% &nbsp;</td>
+								</tr>
+								%endloop%
+								<tr>
+									<th colspan="4"> </th>
+								%endif%
+								%endloop%
+								%endif%
+								<tr>
+									<th colspan="4"> &nbsp;</th>
+								</tr>
+							</tbody>
+						</table>
+					%endloop%
+					%endif%
+					</td>					
+				</tr>
+			</td>
+		</tr>							
+	<tbody>
+</table>
+</body>
+</html>  

@@ -1,0 +1,41 @@
+{
+  "buttonUrls" : {
+    "sections" : [ {
+      "name" : "create",
+      "text" : "Create Reports",
+      "submenu" : [ {
+        "name" : "adapter",
+        "text" : "Adapter Compatibility",
+        "url" : "adapter-assets-report.dsp"
+      }, {
+        "name" : "asset-compat",
+        "text" : "Asset Type Compatibilty",
+        "url" : "asset-compatibility-report.dsp"
+      }, {
+        "name" : "assets",
+        "text" : "Custom Asset Inventory",
+        "url" : "asset-inventory-report.dsp"
+      }, {
+        "name" : "java",
+        "text" : "Custom Java Services",
+        "url" : "java-services-report.dsp"
+      }, {
+        "name" : "service",
+        "text" : "Service Compatibility",
+        "url" : "service-dependencies-report.dsp"
+      }, {
+        "name" : "package",
+        "text" : "Package Dependencies",
+        "url" : "package-dependencies-report.dsp"
+      } ]
+    }, {
+      "name" : "download",
+      "text" : "Download & Manage Reports",
+      "submenu" : [ {
+        "name" : "reports",
+        "text" : "Report List",
+        "url" : "report-list.dsp"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+	"unsupportedAssetTypes": [
+		{
+			"assetType": "broker-trigger",
+			"displayName": "Broker Trigger",
+			"comments": "webMethods Messaging is not supported."
+		},
+		{
+			"assetType": "jms-trigger",
+			"displayName": "JMS Trigger",
+			"comments": "Messaging is not supported."
+		},
+		{
+			"assetType": "xsltservice/unknown",
+			"displayName": "XSLT Service",
+			"comments": "XSLT Services are not supported."
+		},
+		{
+			"assetType": "mqtt-trigger",
+			"displayName": "MQTT Trigger",
+			"comments": "MQTT is not supported."
+		},
+		{
+			"assetType": "java/c",
+			"displayName": "C Service",
+			"comments": "C Services are not supported."
+		},
+		{
+			"assetType": "odataService",
+			"displayName": "ODATA Service",
+			"comments": "OData Services not supported."
+		},
+		{
+			"assetType": "graphqldescriptor",
+			"displayName": "GraphQL Service",
+			"comments": "GraphQL Services are not supported."
+		},
+		{
+			"assetType": "event-trigger",
+			"displayName": "Event Trigger",
+			"comments": "Event Triggers are not supported."
+		},
+		{
+			"assetType": "record/xml",
+			"displayName": "XML Document Type",
+			"comments": "XML Document Types are not supported."
+		},
+		{
+			"assetType": "reference-data",
+			"displayName": "Reference Data",
+			"comments": "Reference Data entities are not supported."
+		},
+		{
+			"assetType": "webServiceDescriptor",
+			"displayName": "WS Descriptor",
+			"comments": "Web Service Descriptors are not supported."
+		},
+		{
+			"assetType": "restResource",
+			"displayName": "REST Resource",
+			"comments": "REST Resources are not supported."
+		},
+		{
+			"assetType": "restDescriptor",
+			"displayName": "REST Descriptor",
+			"comments": "REST Descriptors are not supported."
+		},
+		{
+			"assetType": "spec/unknown",
+			"displayName": "Specification",
+			"comments": "Packaged service with specification reference as IO signature does not show the fields in flow editor."
+		}
+	]
+}

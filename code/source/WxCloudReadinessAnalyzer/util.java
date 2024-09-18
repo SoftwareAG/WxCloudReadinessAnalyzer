@@ -7,6 +7,8 @@ import com.wm.util.Values;
 import com.wm.app.b2b.server.Service;
 import com.wm.app.b2b.server.ServiceException;
 // --- <<IS-START-IMPORTS>> ---
+import com.wm.util.coder.IDataCoder;
+import com.wm.util.coder.IDataJSONCoder;
 import com.wm.app.b2b.server.ServerAPI;
 import com.wm.lang.ns.NSNode;
 import java.io.File;
@@ -75,6 +77,49 @@ public final class util
 		pc.destroy();
 		
 			
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
+	public static final void getClassName (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(getClassName)>> ---
+		// @sigtype java 3.5
+		// [i] object:0:required object
+		// [o] field:0:required className
+	IDataCursor pc = pipeline.getCursor();
+	Object o = IDataUtil.get(pc, "object");
+	IDataUtil.put(pc, "className", o.getClass().getName());
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
+	public static final void getISMemDataImplAsDoc (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(getISMemDataImplAsDoc)>> ---
+		// @sigtype java 3.5
+		// [i] object:0:required isMemDataImpl
+		// [o] record:0:required doc
+  IDataCursor pc = pipeline.getCursor();
+  try{
+	  ISMemDataImpl imdi  = (ISMemDataImpl)IDataUtil.get(pc, "isMemDataImpl");
+	  IDataJSONCoder idc = new IDataJSONCoder();
+	  byte[] bytes = idc.encodeToBytes(imdi);
+	  IData doc = idc.decodeFromBytes(bytes);
+	  IDataUtil.put(pc, "doc", doc);
+  }catch (Exception e){
+	  throw new ServiceException(e);
+  } finally {
+	  pc.destroy();
+  }
 		// --- <<IS-END>> ---
 
                 
@@ -183,19 +228,6 @@ public final class util
 		}
 		pc.destroy();
 			
-		// --- <<IS-END>> ---
-
-                
-	}
-
-
-
-	public static final void sandbox (IData pipeline)
-        throws ServiceException
-	{
-		// --- <<IS-START(sandbox)>> ---
-		// @sigtype java 3.5
-	
 		// --- <<IS-END>> ---
 
                 
