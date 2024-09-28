@@ -16,7 +16,13 @@
 					<td class="title" colspan="4">Package assets incompatible with Cloud or Edge deployment &nbsp;</th>
 				</tr>
 				<tr>
-					<td colspan="4">Report date: %value timestamp%
+					<td colspan="4">Report date: %value timestamp%</td>
+				</tr>
+				<tr>
+					<td colspan="4">Package name filter: %ifvar packageNameFilter -notempty%%value packageNameFilter%%else%None (all packages scanned)%endif%</td>
+				</tr>
+				<tr>
+					<td>
 					%ifvar unsupportedAssets%
 					%loop unsupportedAssets%
 						<table class="tableView" cellpadding="2" width="100%"> 
@@ -25,10 +31,10 @@
 								  <td class="heading" colspan="4" >Package: %value packageName%</td>
 								  <td> &nbsp;</th>
 								</tr>
-								%ifvar assets%
 								<tr>
 									<td class="subHeading" colspan="4" align="center">Unsupported Assets: %value numAssets%</td>
 								</tr>
+								%ifvar assets%
 								<tr>
 									<th>Asset &nbsp;</th>
 									<th>Asset Type &nbsp;</th>
@@ -68,6 +74,8 @@
 							</tbody>
 						</table>
 					%endloop%
+					%else%
+						No unsupported assets found. 
 					%endif%
 					</td>					
 				</tr>

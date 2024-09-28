@@ -173,6 +173,16 @@
 </EXIT>
 </BRANCH>
 
+<BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
+  <COMMENT>Skip Default package</COMMENT>
+
+  <!-- nodes -->
+
+<EXIT NAME="%packages/name%==&#34;Default&#34;" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
+  <COMMENT></COMMENT>
+</EXIT>
+</BRANCH>
+
 <BRANCH TIMEOUT="" SWITCH="/packages/enabled">
   <COMMENT></COMMENT>
 
@@ -4252,6 +4262,8 @@
 </MAPDELETE>
 </MAP>
 </INVOKE>
+</SEQUENCE>
+</BRANCH>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
   <COMMENT>Set package name and asset count</COMMENT>
@@ -4806,8 +4818,6 @@
 <MAPDELETE FIELD="/unsupportedPkgAssets;4;0;WxCloudReadinessAnalyzer.report.doc:unsupportedAssetsReport">
 </MAPDELETE>
 </MAP>
-</SEQUENCE>
-</BRANCH>
 </LOOP>
 
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">

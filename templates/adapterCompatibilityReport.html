@@ -18,7 +18,10 @@
 									<td class="title" colspan="3">Adapter assets unsupported for Cloud or Edge deployment &nbsp;</th>
 								</tr>
 								<tr>
-								  <td colspan="3">Report date: %value timestamp%
+								  <td colspan="3">Report date: %value timestamp%</td>
+								</tr>
+								<tr>
+								  <td colspan="3">%switch adapter%%case 'all'%All registered adapters %case%Only %value adapter%%endswitch% scanned.</td>
 								</tr>
 								%ifvar incompatibleAdapterAssets%
 								%loop incompatibleAdapterAssets%

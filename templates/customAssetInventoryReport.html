@@ -14,7 +14,10 @@
 				<td class="title">Custom Integration Server Assets</td>
 			</tr>
 			<tr>
-				<td>Report date: %value timestamp%
+				<td>Report date: %value timestamp%<td>
+			</tr>
+			<tr>
+				<td>Package name filter: %ifvar packageNameFilter -notempty%%value packageNameFilter%%else%None (all packages scanned)%endif%</td>
 			</tr>
 			%ifvar packageAssetsList%
 			%loop packageAssetsList%

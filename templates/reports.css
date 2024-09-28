@@ -62,7 +62,13 @@ body table tr td ul li {
 	word-break: break-all;
 	text-valign: top;
 }
-
 body table tr td ul li a {
     color: #1776BF;
+}
+.tdBold {
+    color: #007aa3;
+	word-break: break-all;
+	text-valign: top;
+	font-weight: bold;
+	text-align: left;
 }

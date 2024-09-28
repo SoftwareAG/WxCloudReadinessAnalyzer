@@ -8,7 +8,7 @@
   <title>Cloud Migration Service Compatibility Report</title>
 </head>
 <body class="body">
-<table width="100%">
+<table>
 	<tbody>
 		<tr>
 			<td><table class="tableView" cellpadding="2"> 
@@ -17,7 +17,10 @@
 						<td class="title" colspan="7">Services incompatible with Cloud or Edge deployment &nbsp;</th>
 					</tr>
 					<tr>
-					  <td colspan="3">Report date: %value timestamp%
+					  <td colspan="7">Report date: %value timestamp%</td>
+					</tr>
+					<tr>
+					  <td colspan="7">Package name filter: %ifvar packageNameFilter -notempty%%value packageNameFilter%%else%None (all packages scanned)%endif%</td>
 					</tr>
 					<tr>
 						<td class="heading" colspan="7" align="center">Dependents of services not currently supported &nbsp;</th>
@@ -26,8 +29,8 @@
 					<tr>
 					  <th>Referenced Package &nbsp;</th>
 					  <th>Referenced Service &nbsp;</th>
-					  <th>CRT &nbsp;</th>
-					  <th>ERT &nbsp;</th>
+					  <th align="center">CRT</th>
+					  <th align="center">ERT</th>
 					  <th>Dependent Package &nbsp;</th>
 					  <th>Dependent Service &nbsp;</th>
 					  <th>Comments &nbsp;</th>
@@ -36,47 +39,48 @@
 					<tr>
 					  <td>%value refPackageName% &nbsp;</td>
 					  <td>%value referencedAsset% &nbsp;</td>
-					  <td>%value crt% &nbsp;</td>
-					  <td>%value ert% &nbsp;</td>
+					  <td align="center" %ifvar crt equals('No')%class="tdBold"%endif%>%value crt%</td>
+					  <td align="center" %ifvar ert equals('No')%class="tdBold"%endif%>%value ert% &nbsp;</td>
 					  <td>%value dependentPackage% &nbsp;</td>
 					  <td>%value dependentAsset% &nbsp;</td>
 					  <td>%value comment% &nbsp;</td>
 					</tr>
 					%endloop%
 					<tr>
-						<td class="subHeading" colspan="6">%value numUnsupportedReferences% dependencies found. &nbsp;</td>
+						<td class="subHeading" colspan="7">%value numUnsupportedReferences% dependencies found. &nbsp;</td>
 					</tr>
 					%else%
 					<tr>
-						<td class="subHeading" colspan="5">No unsupported dependencies found. &nbsp;</td>
+						<td class="subHeading" colspan="7">No unsupported dependencies found. &nbsp;</td>
 					</tr>
 					%endif%
 					<tr>
-						<td colspan-"4"> &nbsp;</td>
+						<td colspan-"7"> &nbsp;</td>
 					</tr>
 				</tbody>
 			</table></td>
-		</tr>	
-			<td><table class="tableView" cellpadding="2"> 
+		</tr>
+		<tr>
+			<td><table class="tableView" cellpadding="2" width="100%"> 
 				<tbody>
 					<tr>
 						<td class="heading" colspan="5" align="center">Services with unsupported settings &nbsp;</th>
 					</tr>
 					%ifvar servicesBadSettings%
 					<tr>
-					  <th>Package &nbsp;</th>
-					  <th>Service &nbsp;</th>
-					  <th>Stateless &nbsp;</th>
-					  <th>Pipeline Debug &nbsp;</th>
-					  <th>Audit Enabled &nbsp;</th>
+					  <th>Package</th>
+					  <th>Service</th>
+					  <th>Stateless</th>
+					  <th>Pipeline Debug</th>
+					  <th>Audit Enabled</th>
 					</tr>
 					%loop servicesBadSettings%
 					<tr>
 					  <td>%value package% &nbsp;</td>
 					  <td>%value name% &nbsp;</td>
-					  <td>%value stateless% &nbsp;</td>
-					  <td>%value pipelineDebug% &nbsp;</td>
-					  <td>%value enableAuditing% &nbsp;</td>
+					  <td %ifvar stateless equals('False')%class="tdBold"%endif%>%value stateless%</td>
+					  <td %ifvar pipelineDebug equals('Save')%class="tdBold"%endif% %ifvar pipelineDebug matches('Restore*')%class="tdBold"%endif%>%value pipelineDebug%</td>
+					  <td %ifvar enableAuditing equals('Always')%class="tdBold"%endif% %ifvar enableAuditing matches('Top*')%class="tdBold"%endif%>%value enableAuditing%</td>
 					</tr>
 					%endloop%
 					<tr>

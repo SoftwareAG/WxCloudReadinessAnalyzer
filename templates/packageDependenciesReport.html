@@ -14,10 +14,13 @@
 			<td><table class="tableView" cellpadding="2"> 
 				<tbody>
 					<tr>
-						<td class="title" colspan="6" align="center">Dependents of the %value packageName% package &nbsp;</th>
+						<td class="title" colspan="5" align="center">Dependents of the %value packageName% package &nbsp;</th>
 					</tr>
 					<tr>
-					  <td colspan="3">Report date: %value timestamp%
+					  <td colspan="5">Report date: %value timestamp%</td>
+					</tr>
+					<tr>
+					  <td colspan="5">Dependent package name filter: %ifvar dependentPkgNameFilter -notempty%%value dependentPkgNameFilter%%else%None (all packages scanned)%endif%</td>
 					</tr>
 					%ifvar dependentReferenceReport%
 					<tr>
@@ -37,11 +40,11 @@
 					</tr>
 					%endloop%
 					<tr>
-						<td class="subHeading" colspan="6">Dependencies found: %value numDependents% &nbsp;</td>
+						<td class="subHeading" colspan="5">Dependencies found: %value numDependents% &nbsp;</td>
 					</tr>	
 					%else%
 					<tr>
-						<td class="subHeading" colspan="6">No package dependencies found. &nbsp;</td>
+						<td class="subHeading" colspan="5">No package dependencies found. &nbsp;</td>
 					</tr>
 					%endif%
 				</tbody>

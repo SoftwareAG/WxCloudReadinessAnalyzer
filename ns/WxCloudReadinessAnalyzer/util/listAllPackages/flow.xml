@@ -91,6 +91,16 @@
 
   <!-- nodes -->
 
+<BRANCH TIMEOUT="" SWITCH="/packages/name">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<EXIT NAME="WmRoot" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
+  <COMMENT></COMMENT>
+</EXIT>
+</BRANCH>
+
 <INVOKE TIMEOUT="" SERVICE="pub.list:addItemToVector" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
