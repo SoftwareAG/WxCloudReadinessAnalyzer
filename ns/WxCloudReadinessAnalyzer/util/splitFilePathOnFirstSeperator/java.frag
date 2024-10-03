@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">splitFilePathOnFirstSeperator</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgcGMgPSBwaXBlbGluZS5nZXRDdXJzb3IoKTsNClN0cmluZwlpbkZpbGVQYXRo
+ID0gSURhdGFVdGlsLmdldFN0cmluZyggcGMsICJpbkZpbGVQYXRoIiApOw0KdHJ5IHsNCglTdHJp
+bmdbXSBzcGxpdFBhdGhzID0gaW5GaWxlUGF0aC5zcGxpdChQYXR0ZXJuLnF1b3RlKEZpbGUuc2Vw
+YXJhdG9yKSwgMik7DQoJSURhdGFVdGlsLnB1dCggcGMsICJwYXRoUm9vdCIsIHNwbGl0UGF0aHNb
+MF0gKTsNCglJRGF0YVV0aWwucHV0KCBwYywgInN1YlBhdGgiLCBzcGxpdFBhdGhzWzFdICk7DQp9
+IGNhdGNoIChFeGNlcHRpb24gZSl7DQoJdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24oZSk7DQp9
+IGZpbmFsbHkgew0KCUlEYXRhVXRpbC5wdXQoIHBjLCAiZmluYWxseSIsICJZRVMiICk7DQoJcGMu
+ZGVzdHJveSgpOwkJDQp9</value>
+</Values>

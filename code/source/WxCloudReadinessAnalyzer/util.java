@@ -101,6 +101,22 @@ public final class util
 
 
 
+	public static final void getFileSeperator (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(getFileSeperator)>> ---
+		// @sigtype java 3.5
+		// [o] field:0:required fileSeperator
+		IDataCursor pc = pipeline.getCursor();
+		IDataUtil.put(pc, "fileSeperator", File.separator);
+		pc.destroy();
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
 	public static final void getISMemDataImplAsDoc (IData pipeline)
         throws ServiceException
 	{
@@ -180,6 +196,7 @@ public final class util
 		// [o] field:0:required workingDirectory
 		IDataCursor pc = pipeline.getCursor();
 		IDataUtil.put(pc, "workingDirectory", System.getProperty("user.dir"));
+		pc.destroy();
 		// --- <<IS-END>> ---
 
                 
@@ -228,6 +245,33 @@ public final class util
 		}
 		pc.destroy();
 			
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
+	public static final void splitFilePathOnFirstSeperator (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(splitFilePathOnFirstSeperator)>> ---
+		// @sigtype java 3.5
+		// [i] field:0:required inFilePath
+		// [o] field:0:required splitString1
+		// [o] field:0:required splitString2
+		IDataCursor pc = pipeline.getCursor();
+		String	inFilePath = IDataUtil.getString( pc, "inFilePath" );
+		try {
+			String[] splitPaths = inFilePath.split(Pattern.quote(File.separator), 2);
+			IDataUtil.put( pc, "pathRoot", splitPaths[0] );
+			IDataUtil.put( pc, "subPath", splitPaths[1] );
+		} catch (Exception e){
+			throw new ServiceException(e);
+		} finally {
+			IDataUtil.put( pc, "finally", "YES" );
+			pc.destroy();		
+		}
 		// --- <<IS-END>> ---
 
                 

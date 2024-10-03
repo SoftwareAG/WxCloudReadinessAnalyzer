@@ -173,16 +173,6 @@
 </EXIT>
 </BRANCH>
 
-<BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
-  <COMMENT>Skip Default package</COMMENT>
-
-  <!-- nodes -->
-
-<EXIT NAME="%packages/name%==&#34;Default&#34;" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
-  <COMMENT></COMMENT>
-</EXIT>
-</BRANCH>
-
 <BRANCH TIMEOUT="" SWITCH="/packages/enabled">
   <COMMENT></COMMENT>
 
@@ -2682,11 +2672,29 @@
 </MAP>
 </MAPINVOKE>
 
-<MAPCOPY FROM="/unsupportedAssetTypes;4;0;WxCloudReadinessAnalyzer.dependency.doc:unsupportedAsset/displayName;1;0" TO="/asset;4;0;WxCloudReadinessAnalyzer.dependency.doc:asset/assetType;1;0">
-</MAPCOPY>
-
 <MAPCOPY FROM="/results;2;0/nodeName;1;0" TO="/asset;4;0;WxCloudReadinessAnalyzer.dependency.doc:asset/assetName;1;0">
 </MAPCOPY>
+
+<MAPINVOKE SERVICE="WxCloudReadinessAnalyzer.util:lookupAssetType" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/unsupportedAssetTypes;4;0;WxCloudReadinessAnalyzer.dependency.doc:unsupportedAsset/assetType;1;0" TO="/typeString;1;0">
+</MAPCOPY>
+</MAP>
+
+<MAP MODE="INVOKEOUTPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/typeDisplayName;1;0" TO="/asset;4;0;WxCloudReadinessAnalyzer.dependency.doc:asset/assetType;1;0">
+</MAPCOPY>
+</MAP>
+</MAPINVOKE>
 </MAP>
 
 <LOOP TIMEOUT="" IN-ARRAY="/dependents" OUT-ARRAY="/asset/dependents">

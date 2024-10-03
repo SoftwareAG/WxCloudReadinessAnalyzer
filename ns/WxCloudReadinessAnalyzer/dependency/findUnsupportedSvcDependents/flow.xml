@@ -711,7 +711,12 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="%packageNameFilter%" TIMEOUT="" SERVICE="WxCloudReadinessAnalyzer.util:matchesRegex" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<SEQUENCE NAME="%packageNameFilter%" TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE TIMEOUT="" SERVICE="WxCloudReadinessAnalyzer.util:matchesRegex" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -926,7 +931,6 @@
 </MAPCOPY>
 </MAP>
 </INVOKE>
-</BRANCH>
 
 <BRANCH TIMEOUT="" SWITCH="/matches">
   <COMMENT></COMMENT>
@@ -936,6 +940,8 @@
 <EXIT NAME="false" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
   <COMMENT></COMMENT>
 </EXIT>
+</BRANCH>
+</SEQUENCE>
 </BRANCH>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
@@ -1594,7 +1600,7 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">fatalServicesVector</value>
+        <value name="field_name">unsupportedServicesVector</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1633,7 +1639,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/fatalServicesVector;3;0" TO="/vector;3;0">
+<MAPCOPY FROM="/unsupportedServicesVector;3;0" TO="/vector;3;0">
 </MAPCOPY>
 
 <MAPCOPY FROM="/unsupportedServiceDependent;4;0;WxCloudReadinessAnalyzer.report.doc:unsupportedServiceReport" TO="/item;3;0">
@@ -1836,7 +1842,7 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">fatalServicesVector</value>
+        <value name="field_name">unsupportedServicesVector</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1900,7 +1906,7 @@
 <MAPDELETE FIELD="/item;3;0">
 </MAPDELETE>
 
-<MAPCOPY FROM="/vector;3;0" TO="/fatalServicesVector;3;0">
+<MAPCOPY FROM="/vector;3;0" TO="/unsupportedServicesVector;3;0">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/unsupportedServiceDependent;4;0;WxCloudReadinessAnalyzer.report.doc:unsupportedServiceReport">
@@ -2103,7 +2109,7 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">fatalServicesVector</value>
+        <value name="field_name">unsupportedServicesVector</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2137,11 +2143,11 @@
 </LOOP>
 
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
-  <COMMENT>FATAL</COMMENT>
+  <COMMENT>check for unsupportedServiceVector</COMMENT>
 
   <!-- nodes -->
 
-<INVOKE NAME="%fatalServicesVector%" TIMEOUT="" SERVICE="pub.list:vectorToArray" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE NAME="%unsupportedServicesVector%" TIMEOUT="" SERVICE="pub.list:vectorToArray" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -2347,7 +2353,7 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">fatalServicesVector</value>
+        <value name="field_name">unsupportedServicesVector</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2387,7 +2393,7 @@
 </DATA>
 </MAPSET>
 
-<MAPCOPY FROM="/fatalServicesVector;3;0" TO="/vector;3;0">
+<MAPCOPY FROM="/unsupportedServicesVector;3;0" TO="/vector;3;0">
 </MAPCOPY>
 </MAP>
 
@@ -2568,7 +2574,7 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">fatalServicesVector</value>
+        <value name="field_name">unsupportedServicesVector</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2911,7 +2917,7 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">fatalServicesVector</value>
+        <value name="field_name">unsupportedServicesVector</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -3142,7 +3148,7 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">fatalServicesVector</value>
+        <value name="field_name">unsupportedServicesVector</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
