@@ -66,21 +66,25 @@
 					<tr>
 						<td class="heading" colspan="5" align="center">Services with unsupported settings &nbsp;</th>
 					</tr>
+					<tr>
+					  <td colspan="5">Note: Package service executions are not logged in Monitor unless Service auditing is enabled. Enabling may negatively impact performance. </td>
+					</tr>
 					%ifvar servicesBadSettings%
 					<tr>
 					  <th>Package</th>
 					  <th>Service</th>
-					  <th>Stateless</th>
-					  <th>Pipeline Debug</th>
-					  <th>Audit Enabled</th>
+					  <th>Stateless &nbsp;</th>
+					  <th>Pipeline Debug &nbsp;</th>
+					  <th>Audit Enabled &nbsp;</th>
 					</tr>
 					%loop servicesBadSettings%
 					<tr>
 					  <td>%value package% &nbsp;</td>
 					  <td>%value name% &nbsp;</td>
-					  <td %ifvar stateless equals('False')%class="tdBold"%endif%>%value stateless%</td>
+					  <td %ifvar stateless equals('False')%class="tdBold"%endif%>%value stateless% </td>
 					  <td %ifvar pipelineDebug equals('Save')%class="tdBold"%endif% %ifvar pipelineDebug matches('Restore*')%class="tdBold"%endif%>%value pipelineDebug%</td>
-					  <td %ifvar enableAuditing equals('Always')%class="tdBold"%endif% %ifvar enableAuditing matches('Top*')%class="tdBold"%endif%>%value enableAuditing%</td>
+					  <!-- <td %ifvar enableAuditing equals('Always')%class="tdBold"%endif% %ifvar enableAuditing matches('Top*')%class="tdBold"%endif%>%value enableAuditing%</td> -->
+					  <td>%value enableAuditing%</td>
 					</tr>
 					%endloop%
 					<tr>

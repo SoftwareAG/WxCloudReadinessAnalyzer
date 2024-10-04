@@ -17,7 +17,8 @@
 						<td class="title" colspan="5" align="center">Dependents of the %value packageName% package &nbsp;</th>
 					</tr>
 					<tr>
-					  <td colspan="5">Report date: %value timestamp%</td>
+					  <td colspan="2">Report date: %value timestamp%</td>
+					  <td colspan="2">Note: Ensure all non-webMethods package dependencies are configured and available in the same Github repository. </td>
 					</tr>
 					<tr>
 					  <td colspan="5">Dependent package name filter: %ifvar dependentPkgNameFilter -notempty%%value dependentPkgNameFilter%%else%None (all packages scanned)%endif%</td>
