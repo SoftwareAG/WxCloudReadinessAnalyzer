@@ -2953,6 +2953,83 @@
 			"crt": "No",
 			"ert": "No",
 			"comments": "webMethods Messaging is not supported."
+		},
+		{
+			"serviceName": "pub.alert.notifier:disable",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert.notifier:* services are not currently supported."
+		},
+		{
+			"serviceName": "pub.alert.notifier:enable",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert.notifier:* services are not currently supported."
+		},
+		{
+			"serviceName": "pub.alert.notifier:delete",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert.notifier:* services are not currently supported."
+		},
+		{
+			"serviceName": "pub.alert.notifier:create",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert.notifier:* services are not currently supported."
+		},
+		{
+			"serviceName": "pub.alert.notifier:update",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert.notifier:* services are not currently supported."
+		},
+		{
+			"serviceName": "pub.alert.notifier:list",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert.notifier:* services are not currently supported."
+		},
+		{
+			"serviceName": "pub.alert:countUnread",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert:countUnread service is not currently supported."
+		},
+		{
+			"serviceName": "pub.alert:fetchUnread",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert:fetchUnread service is not currently supported."
+		},
+		{
+			"serviceName": "pub.alert:markAllAsRead",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert:markAllAsRead service is not currently supported."
+		},
+		{
+			"serviceName": "pub.alert:markAsRead",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert:markAsRead service is not currently supported."
+		},
+		{
+			"serviceName": "pub.alert:markAsUnread",
+			"package": "WmPublic",
+			"crt": "No",
+			"ert": "No",
+			"comment": "The pub.alert:markAsUnread service is not currently supported."
 		}
 	]
 }
