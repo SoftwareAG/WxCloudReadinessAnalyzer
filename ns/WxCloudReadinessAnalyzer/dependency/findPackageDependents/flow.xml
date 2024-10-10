@@ -877,6 +877,16 @@
 
   <!-- nodes -->
 
+<BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
+  <COMMENT>ignorereferences in the same package</COMMENT>
+
+  <!-- nodes -->
+
+<EXIT NAME="%dependentReferences/dependentPackage%==%refPackageName%" FROM="$iteration" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
+  <COMMENT></COMMENT>
+</EXIT>
+</BRANCH>
+
 <INVOKE TIMEOUT="" SERVICE="WxCloudReadinessAnalyzer.util:isSystemPackage" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 

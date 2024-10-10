@@ -9,7 +9,7 @@
         "url" : "adapter-assets-report.dsp"
       }, {
         "name" : "asset-compat",
-        "text" : "Asset Type Compatibilty",
+        "text" : "Asset Type Compatibility",
         "url" : "asset-compatibility-report.dsp"
       }, {
         "name" : "assets",
