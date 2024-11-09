@@ -5,12 +5,16 @@
 
   <!-- nodes -->
 
+<INVOKE TIMEOUT="" SERVICE="pub.flow:tracePipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
   <COMMENT>chack for package name</COMMENT>
 
   <!-- nodes -->
 
-<EXIT NAME="!%packageName%" FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="Np package name specified.">
+<EXIT NAME="!%packageName% || %packageName%==&#34;&#34;" FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="No package name specified.">
   <COMMENT></COMMENT>
 </EXIT>
 </BRANCH>
@@ -1415,6 +1419,17 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
+        <value name="field_name">refPackageName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
         <value name="field_name">reportName</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
@@ -1446,17 +1461,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">$template</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">refPackageName</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>

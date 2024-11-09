@@ -3,9 +3,14 @@
 	<head>
 		<title>Package Dependencies Report</title>
 		<link rel="stylesheet" type="text/css" href="webMethods.css"/>
+		<script>
+		function validateAndToggle(){
+			msg.style.display = 'inline';
+		}
+		</script>
 	</head>
 	<body>
-		<form name="testform" method="post" action="/invoke/WxCloudReadinessAnalyzer.report:createPackageDependenciesReport" target="body">
+		<form name="testform" method="post" action="/invoke/WxCloudReadinessAnalyzer.report:createPackageDependenciesReport" target="body" onSubmit="validateAndToggle()">
 			<table width="100%">
 				<tbody>
 					<tr>
@@ -18,14 +23,15 @@
 									<!-- - - - Inputs Section - - - -->
 									<tr>
 										<td class="evenrow">
-											<label for="packageName">* Select package to find dependents &nbsp;&nbsp;</label>
+											<label for="packageName">* Package to find dependents of &nbsp;&nbsp;</label>
 										</td>
 										<td class="evenrow-l">
-											<input list="packageNames" name="packageName" id="packageName"/>
+											<select list="packageNames" name="packageName" id="packageName" required />
 											%invoke WxCloudReadinessAnalyzer.util:listAllPackages%
 											<datalist id="packageNames">
+												<option value="" selected disabled>Select package...</option>
 												%loop packageNames%
-												<option value="%value packageNames%">
+												<option value="%value packageNames%">%value packageNames%</option>
 												%endloop%
 											</datalist>
 										</td>
@@ -52,7 +58,7 @@
 									</tr>
 									//-->
 									<tr>
-										<td class="action" colspan="2"><input class="button2" type="submit" value="Create Report" onClick="msg.style.display = 'inline';"/></td>
+										<td class="action" colspan="2"><input class="button2" type="submit" value="Create Report" /></td>
 									</tr>
 									<tr>
 										<td colspan="2" class="message" style="display:none;" id="msg">Creating report. Please wait... <img src="images/loading.gif" style="valign='middle'"/></td>
